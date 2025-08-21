@@ -10,7 +10,22 @@
 
 
     <ImageView
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:src="@drawable/splashlogo"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area 51 Mudanças"
+        android:layout_gravity="center">
+
+    </TextView>
+
+
+
 </LinearLayout>
